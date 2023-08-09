@@ -1,7 +1,7 @@
 <script lang="ts">
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  import Timer from './lib/Timer.svelte'
 </script>
 
 <main>
@@ -13,19 +13,14 @@
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
-  <h1>Vite + Svelte</h1>
+  <h1>Sequence Timer</h1>
+  <p>Allows you to set up a sequence of timers for various tasks.</p>
+  <p>Example: I use this for my ten minute morning workout. At each stage, I, say, do push-ups for ten seconds, and then rest for ten seconds, and I do this four times.</p>
 
   <div class="card">
-    <Counter />
+    <Timer />
   </div>
 
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
 </main>
 
 <style>
